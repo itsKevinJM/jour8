@@ -1,5 +1,5 @@
-var multiply = require("./external.js").multiply
-var multiply1 = require("./external.js").multiply1
+var multiply = require("./table-utils.js");
+var multiply1 = require("./table-utils.js");
 
-console.log(multiply());
-console.log(multiply1());
+console.log(multiply);
+console.log(multiply1);
